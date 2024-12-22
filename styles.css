@@ -128,9 +128,11 @@ main {
     display: block;
     padding: 10px;
     margin: 5px 0;
+  }
    main {
     padding-top: 200px;
   }
+}
 
 
 main {
