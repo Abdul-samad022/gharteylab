@@ -100,7 +100,7 @@ main {
 }
 
 .navbar {
-  position: relative;               /* Fix navbar to the top of the page */
+  position: fixed;               /* Fix navbar to the top of the page */
   top: 0;                        /* Stick to the very top */
   left: 0;                       /* Align to the left edge */
   width: 100%;                   /* Take full width of the page */
