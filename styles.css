@@ -125,15 +125,11 @@ main {
 }
 
 @media (max-width: 768px) {
-   nav {
-    flex-direction: column;
-   }
-}
-   
-.navbar a {
+  .navbar a {
     display: block;
     padding: 10px;
     margin: 5px 0;
+  }
 }
 
 
