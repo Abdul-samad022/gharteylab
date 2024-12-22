@@ -11,7 +11,7 @@ body {
   color: #f5f6f7;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  padding-top: 80px;             /* Ensure content starts below the fixed navbar */
+  padding-top: 70px;             /* Ensure content starts below the fixed navbar */
   margin: 0;
 }
 
@@ -101,7 +101,7 @@ main {
   left: 0;                       /* Align to the left edge */
   width: 100%;                   /* Take full width of the page */
   background-color: #ffffff;     /* Dark blue background for the navbar */
-  padding: 10px 20px;               /* Padding for spacing inside the navbar */
+  padding: 15px;               /* Padding for spacing inside the navbar */
   z-index: 1000;                 /* Ensure navbar stays above other content */
 }
 
