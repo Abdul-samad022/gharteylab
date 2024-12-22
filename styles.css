@@ -11,7 +11,7 @@ body {
   color: #f5f6f7;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  padding-top: 70px;             /* Ensure content starts below the fixed navbar */
+  padding-top: 80px;             /* Ensure content starts below the fixed navbar */
   margin: 0;
 }
 
