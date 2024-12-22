@@ -93,7 +93,7 @@ main {
 }
 
 .navbar {
-  flex: 1;
+  display: flex;
   position: fixed;               /* Fix navbar to the top of the page */
   top: 0;                        /* Stick to the very top */
   left: 0;                       /* Align to the left edge */
