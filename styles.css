@@ -80,7 +80,9 @@ h1, h2 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+hr {
+  width: 5px;
+}
 
 .container {
   text-align: center;            /* Center-aligns content within the container */
