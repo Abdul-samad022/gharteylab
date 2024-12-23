@@ -61,11 +61,14 @@ body {
 
 .about-content {
    width: 70%;
-   padding-ringt: 20px;
+   padding-ringt: 5%px;
 }
    
 .aside {
    width: 30%;
+}
+.aside p {
+   text-align: center;
 }
 
 h1, h2, h3 {
