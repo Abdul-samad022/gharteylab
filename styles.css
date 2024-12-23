@@ -1,8 +1,8 @@
 html, body {
    height: 100%;        /* Ensure the full height of the viewport is used */
    margin: 0;           /* Remove default margin */
-   display: flex;       /* Use flex layout */
-   flex-direction: column; /* Stack children vertically */
+   /*display: flex;*/       /* Use flex layout */
+   /*flex-direction: column;*/ /* Stack children vertically */
 }
 body {
   width: 100%;                   /* Ensure body takes full width */
@@ -81,7 +81,7 @@ h1, h2 {
   text-align: center;
 }
 hr {
-  width: 5px;
+  height: 5px;
 }
 
 .container {
