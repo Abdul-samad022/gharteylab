@@ -61,6 +61,20 @@ main {
     margin-bottom: 60px; /* To ensure content doesn't get hidden by footer */
 }
 
+.about {
+   display: flex; 
+   flex-direction: row;
+}
+
+.about-content {
+   width: 70%;
+   padding-ringt: 20px;
+}
+   
+.aside {
+   width: 30%;
+}
+
 h1, h2 {
   margin-top: 20px;
   margin-bottom: 10px;
