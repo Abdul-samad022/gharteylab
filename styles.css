@@ -7,8 +7,7 @@ html, body {
 body {
   width: 100%;                   /* Ensure body takes full width */
   height: 100vh;
-  background-color: #1b1b32df;
-  color: #f5f6f7;
+  /*color: #f5f6f7;*/
   font-family: Arial, sans-serif;
   font-size: 16px;
   padding-top: 0;             /* Ensure content starts below the fixed navbar */
@@ -104,7 +103,7 @@ main {
   top: 0;                       /* Stick to the very top */
   left: 0;                     /* Align to the left edge */
   width: 100%;                   /* Take full width of the page */
-  background-color: #ffffff;     /* Dark blue background for the navbar */
+  background-color: #1b1b32df;     /* Dark blue background for the navbar */
   padding: 15px 0;               /* Padding for spacing inside the navbar */
   z-index: 1000;                 /* Ensure navbar stays above other content */
 }
