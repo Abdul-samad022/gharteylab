@@ -19,8 +19,8 @@ body {
   top: 0;                       /* Stick to the very top */
   left: 0;                     /* Align to the left edge */
   width: 100%;                   /* Take full width of the page */
-  background-color: #1b1b32df;     /* Dark blue background for the navbar */
-  /*background-color: #1b1b32;*/
+  /*background-color: #1b1b32df;*/     /* Dark blue background for the navbar */
+  background-color: #1b1b32;
   padding: 15px 0;               /* Padding for spacing inside the navbar */
   z-index: 1000;                 /* Ensure navbar stays above other content */
 }
