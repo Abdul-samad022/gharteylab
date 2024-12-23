@@ -52,6 +52,7 @@ body {
     padding: 10px;
     margin: 5px 0;
   }
+}
 
 .about {
    display: flex; 
@@ -78,8 +79,10 @@ hr {
 }
 
 .container {
-  text-align: center;            /* Center-aligns content within the container */
-  margin-top: 20px;
+  /*text-align: center;*/            /* Center-aligns content within the container */
+  /*margin-top: 20px;*/
+   padding-right: 50px; 
+   padding-left: 50px
 }
 
 .profilePic {
@@ -139,11 +142,6 @@ hr {
  /* font-weight: 600;*/
   font-size: 16px;
   margin-bottom: 15px;
-}
-
-  body {
-    padding-top: 0; /* Increased padding for stacked navbar */
-  }
 }
 
 .logo {
