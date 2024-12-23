@@ -13,6 +13,46 @@ body {
   padding-top: 0;             /* Ensure content starts below the fixed navbar */
   margin: 0;
 }
+
+.navbar {
+  position: static;             /* Fix navbar to the top of the page */
+  top: 0;                       /* Stick to the very top */
+  left: 0;                     /* Align to the left edge */
+  width: 100%;                   /* Take full width of the page */
+  background-color: #1b1b32df;     /* Dark blue background for the navbar */
+  /*background-color: #1b1b32;*/
+  padding: 15px 0;               /* Padding for spacing inside the navbar */
+  z-index: 1000;                 /* Ensure navbar stays above other content */
+}
+
+.navbar a {
+  color: #ffffff;                /* Black text */
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 15px;                /* Space out the menu items horizontally */
+  display: inline-block;         /* Ensure items are inline */
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar a:hover {
+  color: #f0f0f0;                /* Lighter gray on hover */
+  background-color: #2b2b52;     /* Slightly lighter blue on hover */
+  border-radius: 5px;
+}
+
+.navbar a.active {
+   background-color: #2b2b52;  /* Highlight color for the active tab */
+   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .navbar a {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+  }
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -97,44 +137,6 @@ main {
   font-size: 16px;
   margin-bottom: 15px;
 }
-
-.navbar {
-  position: static;             /* Fix navbar to the top of the page */
-  top: 0;                       /* Stick to the very top */
-  left: 0;                     /* Align to the left edge */
-  width: 100%;                   /* Take full width of the page */
-  background-color: #1b1b32df;     /* Dark blue background for the navbar */
-  padding: 15px 0;               /* Padding for spacing inside the navbar */
-  z-index: 1000;                 /* Ensure navbar stays above other content */
-}
-
-.navbar a {
-  color: #ffffff;                /* Black text */
-  text-decoration: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 0 15px;                /* Space out the menu items horizontally */
-  display: inline-block;         /* Ensure items are inline */
-  transition: color 0.3s, background-color 0.3s;
-}
-
-.navbar a:hover {
-  color: #f0f0f0;                /* Lighter gray on hover */
-  background-color: #2b2b52;     /* Slightly lighter blue on hover */
-  border-radius: 5px;
-}
-
-.navbar a.active {
-   background-color: #2b2b52;  /* Highlight color for the active tab */
-   color: #ffffff;
-}
-
-@media (max-width: 768px) {
-  .navbar a {
-    display: block;
-    padding: 10px;
-    margin: 5px 0;
-  }
 
   body {
     padding-top: 0; /* Increased padding for stacked navbar */
