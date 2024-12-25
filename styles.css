@@ -12,6 +12,7 @@ body {
   font-size: 16px;
   padding-top: 0;             /* Ensure content starts below the fixed navbar */
   margin: 0;
+ overflow-x: hidden;
 }
 
 .navbar {
