@@ -57,6 +57,7 @@ body {
 .about {
    display: flex; 
    flex-direction: row;
+   padding-right: 5px;
 }
 
 .about-content {
