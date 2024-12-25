@@ -54,19 +54,35 @@ body {
   }
 }
 
+.top-bg{
+	height: 400px;
+	background-image: url("images/bg1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #ffffff;
+	margin: 0;
+}
+
+.top-bg h1 {
+	padding-top: 50px;
+}
+
 .about {
    display: flex; 
    flex-direction: row;
-   padding-right: 5px;
+   box-sizing: border-box;
+   justify-content: space-between;
 }
 
 .about-content {
-   width: 70%;
-   padding-ringt: 5%px;
+   width: 60%;
+   padding-ringt: 10px;
 }
    
 .aside {
    width: 30%;
+   background-color: lightblue;
 }
 .aside p {
    text-align: center;
@@ -94,7 +110,7 @@ hr {
   height: 300px;                 /* Keep the container square */
   margin: 20px auto;             /* Center horizontally */
   overflow: hidden;              /* Clip any image overflow */
-  border-radius: 2%;          /* Make the container circular */
+  border-radius: 50%;          /* Make the container circular */
   display: flex;                 /* Flexbox to center the image */
   justify-content: center;       /* Center horizontally */
   align-items: center;           /* Center vertically */
