@@ -17,7 +17,6 @@ body {
 .navbar {
   display: flex;
   flex-direction: row;
-  overflow: scroll;
   position: static;             /* Fix navbar to the top of the page */
   top: 0;                       /* Stick to the very top */
   left: 0;                     /* Align to the left edge */
@@ -84,6 +83,7 @@ body {
 }
    
 .aside {
+   min-width: 0;
    width: 30%;
    background-color: lightblue;
    margin-right: 5px;
