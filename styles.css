@@ -52,6 +52,9 @@ body {
     padding: 10px;
     margin: 5px 0;
   }
+  .aside {
+   width: 30%;
+  }
 }
 
 .top-bg{
@@ -83,6 +86,7 @@ body {
 .aside {
    width: 30%;
    background-color: lightblue;
+   margin-right: 5px;
 }
 .aside p {
    text-align: center;
