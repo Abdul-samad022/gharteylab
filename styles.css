@@ -52,8 +52,9 @@ body {
     padding: 10px;
     margin: 5px 0;
   }
-  .about {
-   flex-direction: column;
+  .container {
+   padding-right: 20px; 
+   padding-left: 20px
   }
 }
 
@@ -145,6 +146,9 @@ hr {
   text-align: center;
   width: 25%;
 }
+.office {
+  text-align: left;
+  width: 30%;
 
 .foot {
   background-color: #ffff;
