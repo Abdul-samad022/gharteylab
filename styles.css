@@ -64,7 +64,7 @@ body {
 	background-image: url("images/bg1.JPG");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: 100%, 50%;
+	background-size: cover;
 	color: #ffffff;
 	margin: 0;
 }
@@ -74,7 +74,7 @@ body {
 	background-image: url("images/labbg.JPG");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: 100%, 50%;
+	background-size: cover;
 	color: #ffffff;
 	margin: 0;
 }
