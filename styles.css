@@ -62,7 +62,7 @@ body {
 .top-bg {
 	height: 400px;
 	background-image: url("images/bg1.JPG");
-	background-attachment: fixed;
+	background-attachment: skroll;
 	background-repeat: no-repeat;
 	background-size: 100%, 100%;
 	color: #ffffff;
@@ -72,7 +72,7 @@ body {
 .lab-top-bg {
 	height: 400px;
 	background-image: url("images/labbg.JPG");
-	background-attachment: fixed;
+	background-attachment: skroll;
 	background-repeat: no-repeat;
 	background-size: 100%, 100%;
 	opacity: 0.9;
