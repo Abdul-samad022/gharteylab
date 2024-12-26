@@ -76,7 +76,7 @@ body {
 	background-image: url("images/labbg.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	opacity: 0.9;
 	color: #ffffff;
 	margin: 0;
