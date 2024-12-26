@@ -25,6 +25,7 @@ body {
   background-color: #1b1b32;
   padding: 15px 0;               /* Padding for spacing inside the navbar */
   z-index: 1000;                 /* Ensure navbar stays above other content */
+  margin-bottom: 0;
 }
 
 .navbar a {
@@ -62,6 +63,7 @@ body {
 .top-bg {
 	height: 500px;
 	width: 100%;
+	margin-top: 0;
 	background-image: url("images/bg1.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -72,6 +74,7 @@ body {
 .lab-top-bg {
 	height: 500px;
 	width: 100%;
+	margin-top: 0;
 	background-image: url("images/labbg.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
