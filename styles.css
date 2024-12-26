@@ -64,7 +64,7 @@ body {
 	background-image: url("images/bg1.JPG");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	color: #ffffff;
 	margin: 0;
 }
@@ -74,7 +74,7 @@ body {
 	background-image: url("images/labbg.JPG");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%, 100%;
 	opacity: 0.5;
 	color: #ffffff;
 	margin: 0;
@@ -82,6 +82,10 @@ body {
 
 .top-bg h1 {
 	padding-top: 50px;
+}
+
+.lab-top-bg h1 {
+	padding-top: 50%;
 }
 
 .about {
