@@ -67,11 +67,10 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	color: #ffffff;
-	margin: 0;
 }
 
 .lab-top-bg {
-	height: 800px;
+	height: 500px;
 	width: 100%;
 	background-image: url("images/labbg.JPG");
 	background-attachment: scroll;
@@ -79,8 +78,6 @@ body {
 	background-size: cover;
 	opacity: 0.9;
 	color: #ffffff;
-	margin: 0;
-	padding-top: 0;
 }
 
 .top-bg h1 {
