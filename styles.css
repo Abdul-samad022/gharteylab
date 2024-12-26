@@ -1,12 +1,12 @@
 html, body {
-   height: 100%;        /* Ensure the full height of the viewport is used */
+   /*height: 100%*/;        /* Ensure the full height of the viewport is used */
    margin: 0;           /* Remove default margin */
    /*display: flex;*/       /* Use flex layout */
    /*flex-direction: column;*/ /* Stack children vertically */
 }
 body {
   width: 100%;                   /* Ensure body takes full width */
-  height: 100vh;
+  /*height: 100vh;*/
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -60,7 +60,7 @@ body {
 }
 
 .top-bg {
-	height: 200px;
+	height: 400px;
 	width: 100%;
 	background-image: url("images/bg1.JPG");
 	background-attachment: scroll;
@@ -71,7 +71,7 @@ body {
 }
 
 .lab-top-bg {
-	height: 200px;
+	height: 400px;
 	width: 100%;
 	background-image: url("images/labbg.JPG");
 	background-attachment: scroll;
