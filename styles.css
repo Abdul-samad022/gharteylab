@@ -148,9 +148,9 @@ hr {
 }
 
 #mybtn {
-  background-color: red;
+  /*background-color: red;*/
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-left: 80%;
+  margin-left: 50px;;
 }
 
 .address {
