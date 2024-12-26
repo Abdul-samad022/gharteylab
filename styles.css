@@ -65,7 +65,7 @@ body {
 	background-image: url("images/bg1.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	background-size: 100%, 100%;
+	background-size: 100% 100%;
 	color: #ffffff;
 	margin: 0;
 }
@@ -76,11 +76,11 @@ body {
 	background-image: url("images/labbg.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	background-size: 100%, 100%;
+	background-size: 100% 100%;
 	opacity: 0.9;
 	color: #ffffff;
 	margin: 0;
-	parding-top: 0;
+	padding-top: 0;
 }
 
 .top-bg h1 {
