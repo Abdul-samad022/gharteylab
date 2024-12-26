@@ -143,6 +143,16 @@ hr {
   font-family: arial;
 }
 
+#more {
+  display: none;
+}
+
+#mybtn {
+  background-color: red;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 90%;
+}
+
 .address {
   text-align: left;
   width: 30%;
