@@ -60,7 +60,8 @@ body {
 }
 
 .top-bg {
-	height: 400px;
+	height: 200px;
+	width: 100%;
 	background-image: url("images/bg1.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -70,7 +71,8 @@ body {
 }
 
 .lab-top-bg {
-	height: 400px;
+	height: 200px;
+	width: 100%;
 	background-image: url("images/labbg.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
