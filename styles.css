@@ -1,17 +1,11 @@
 html, body {
-   /*height: 100%;*/       /* Ensure the full height of the viewport is used */
    margin: 0;           /* Remove default margin */
-   /*display: flex;*/       /* Use flex layout */
-   /*flex-direction: column;*/ /* Stack children vertically */
 }
 body {
   width: 100%;                   /* Ensure body takes full width */
-  /*height: 100vh;*/
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  padding-top: 0;             /* Ensure content starts below the fixed navbar */
-  margin: 0;
 }
 
 .navbar {
@@ -21,7 +15,6 @@ body {
   top: 0;                       /* Stick to the very top */
   left: 0;                     /* Align to the left edge */
   width: 100%;                   /* Take full width of the page */
-  /*background-color: #1b1b32df;*/     /* Dark blue background for the navbar */
   background-color: #1b1b32;
   padding: 15px 0;               /* Padding for spacing inside the navbar */
   z-index: 1000;                 /* Ensure navbar stays above other content */
@@ -34,7 +27,6 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   margin: 0 15px;                /* Space out the menu items horizontally */
-  /*display: inline-block;*/         /* Ensure items are inline */
   transition: color 0.3s, background-color 0.3s;
 }
 
@@ -94,19 +86,15 @@ body {
 .about {
    display: flex; 
    flex-direction: row;
-   /*box-sizing: border-box;*/
    justify-content: space-around;
 }
 
 .position {
    color: blue;
-   /*width: 60%;*/
    padding-ringt: 10px;
 }
    
 .aside {
-   /*min-width: 0;*/
-   /*width: 40%;*/
    background-color: lightblue;
    margin-right: 5px;
 }
@@ -123,12 +111,9 @@ h1, h2, h3 {
 
 hr {
   border: 5px solid #1b1b32df;
-  /*color: #1b1b32df;*/
 }
 
 .container {
-  /*text-align: center;*/            /* Center-aligns content within the container */
-  /*margin-top: 20px;*/
    box-sizing: border-box;
    padding-right: 30px; 
    padding-left: 30px
@@ -166,7 +151,6 @@ hr {
 }
 
 #mybtn {
-  /*background-color: red;*/
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-left: 50px;;
 }
@@ -194,7 +178,6 @@ hr {
   color: #ffffff;
   padding: 40px 20px;
   margin-top: 50px;
-  /*padding-bottom: 20px;*/
   border-top: 1px solid #ddd;
   box-shadow: 0px -4px 15px rgba(0, 0, 0, 0.02);
 }
@@ -202,12 +185,10 @@ hr {
 .foot p {
   margin: 10px 0;
   font-size: 14px;
-  /*display: inline-block;*/
 }
 
 .logo {
     height: 40px;                  /* Adjust the height as needed */
     width: auto;                   /* Maintain the aspect ratio */
-    /*margin-right: 15px;*/            /* Add space between the logo and the Home link */
     vertical-align: middle;        /* Align logo with text vertically */
 }
