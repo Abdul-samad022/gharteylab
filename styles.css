@@ -59,9 +59,19 @@ body {
   }
 }
 
-.top-bg{
+.top-bg {
 	height: 400px;
 	background-image: url("images/bg1.JPG");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%, 50%;
+	color: #ffffff;
+	margin: 0;
+}
+
+.lab-top-bg {
+	height: 400px;
+	background-image: url("images/labbg.JPG");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%, 50%;
