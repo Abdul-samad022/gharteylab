@@ -198,6 +198,7 @@ hr {
   flex-direction: row; 
   flex-wrap: wrap; 
   justify-content: space-around;
+  flex: 0 0 200px;
 }
 
 #more {
