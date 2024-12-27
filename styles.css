@@ -107,7 +107,7 @@ body {
 }
 
 .top-bg {
-	height: 500px;
+	height: 200px;
 	width: 100%;
 	margin-top: 0;
 	background-image: url("images/bg1.JPG");
@@ -118,7 +118,7 @@ body {
 }
 
 .lab-top-bg {
-	height: 500px;
+	height: 200px;
 	width: 100%;
 	margin-top: 0;
 	background-image: url("images/labbg.JPG");
