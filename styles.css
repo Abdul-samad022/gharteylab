@@ -195,9 +195,8 @@ hr {
 
 .members {
   display: flex; 
-  flex-direction: flow; 
+  flex-direction: row; 
   flex-wrap: wrap; 
-  justify-content: space-around;
 }
 
 #more {
