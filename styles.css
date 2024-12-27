@@ -74,7 +74,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-	.show-side-nav .sidenav  {
+	.opensidenav .sidenav  {
 	    display: none;
 	}
 }
