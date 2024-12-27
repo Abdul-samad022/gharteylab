@@ -46,6 +46,12 @@ body {
    cursor:pointer;
 }
 
+.sidenav {
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+
 @media screen and (max-width: 768px) {
 	.navbar {
 	    display: none;
