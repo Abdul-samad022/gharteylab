@@ -143,11 +143,6 @@ body {
    flex-direction: row;
    justify-content: space-around;
 }
-
-.position {
-   color: blue;
-   padding-ringt: 10px;
-}
    
 .aside {
    background-color: lightblue;
@@ -175,7 +170,6 @@ hr {
 }
 
 .profileContainer {
-  width: 300px;                  /* Adjust size for the image container */
   height: 300px;                 /* Keep the container square */
   display: flex;
   flex-direction: row;
