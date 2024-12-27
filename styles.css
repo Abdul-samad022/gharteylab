@@ -174,16 +174,12 @@ hr {
    padding-left: 30px
 }
 
-.profilePic {
+.profileContainer {
   width: 300px;                  /* Adjust size for the image container */
   height: 300px;                 /* Keep the container square */
-  margin: 20px auto;             /* Center horizontally */
-  overflow: hidden;              /* Clip any image overflow */
-  border-radius: 50%;          /* Make the container circular */
-  display: flex;                 /* Flexbox to center the image */
-  justify-content: center;       /* Center horizontally */
-  align-items: center;           /* Center vertically */
-  background-color: #f0f0f0;     /* Optional background color */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #profilePic {
