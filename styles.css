@@ -195,7 +195,7 @@ hr {
 
 .members {
   display: flex; 
-  flex-direction: column; 
+  flex-direction: flow; 
   flex-wrap: wrap; 
   justify-content: space-around;
 }
