@@ -177,6 +177,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex: 0 0 300px;
 }
 
 #profilePic {
