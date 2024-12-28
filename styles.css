@@ -99,12 +99,6 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
-  .navbar a {
-    display: block;
-    padding: 10px;
-    margin: 5px 0;
-  }
  .about {
     flex-direction: row;
   }
@@ -178,7 +172,7 @@ hr {
    float: left;
 }
 .profileContainer{
-   margin-left: 30%;	
+   margin-left: 10%;	
 }
 
 .content {
