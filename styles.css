@@ -11,13 +11,13 @@ body {
 .navbar {
   display: flex;
   flex-direction: row;
-  position: fixed;             /* Fix navbar to the top of the page */
   top: 0;                       /* Stick to the very top */
   left: 0;                    /* Align to the left edge */
   width: 100%;
   background-color: #1b1b32;
   padding: 15px 0;               /* Padding for spacing inside the navbar */
   z-index: 1;                 /* Ensure navbar stays above other content */
+  margin: 0 0;
 }
 
 .navbar a {
