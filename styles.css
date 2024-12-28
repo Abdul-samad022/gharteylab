@@ -14,10 +14,11 @@ body {
   position: static;             /* Fix navbar to the top of the page */
   top: 0;                       /* Stick to the very top */
   left: 0;                    /* Align to the left edge */
-  width: 100%;                   /* Take full width of the page */
+  width: 100%;
+  height: 30px;
   background-color: #1b1b32;
   padding: 15px 0;               /* Padding for spacing inside the navbar */
-  z-index: 1000;                 /* Ensure navbar stays above other content */
+  z-index: 1;                 /* Ensure navbar stays above other content */
   margin: 0;
 }
 
