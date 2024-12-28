@@ -107,6 +107,7 @@ body {
 	height: 300px;
 	width: 100%;
 	margin-top: 0;
+	padding-top: 1;
 	background-image: url("images/bg1.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -118,6 +119,7 @@ body {
 	height: 300px;
 	width: 100%;
 	margin-top: 0;
+	padding-top: 1;
 	background-image: url("images/labbg.JPG");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
