@@ -41,9 +41,10 @@ body {
 }
 
 .opensidenav {
-   font-size:30px;
+   font-size:40px;
    cursor:pointer;
    color: #ffffff;
+   margin-left: 5px;
 }
 
 .sidenav {
