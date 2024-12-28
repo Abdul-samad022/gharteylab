@@ -86,7 +86,7 @@ body {
 	    display: none;
 	}
 	.profileContainer {
-	    display: block;
+	    flex-direction: column;
 	}
 }
 
@@ -176,7 +176,7 @@ hr {
   height: 300px;         
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
