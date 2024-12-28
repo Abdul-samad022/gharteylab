@@ -145,6 +145,8 @@ body {
 .aside {
    background-color: lightblue;
    margin-right: 5px;
+   width: 100%;
+   height: 100vh;
 }
 
 .aside p {
