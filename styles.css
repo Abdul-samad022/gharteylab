@@ -176,11 +176,13 @@ hr {
    width: 350px;
    height: 250px;
    float: left;
-   margin: 30%;
+}
+.profileContainer{
+   margin-left: 30%;	
 }
 
 .content {
-   padding: 10px;
+   padding-left: 20px;
 }
 .clearfix::after {
    content: "";
