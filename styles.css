@@ -86,7 +86,7 @@ body {
 	    display: none;
 	}
 	.profileContainer {
-	    flex-direction: column;
+	    display: block;
 	}
 }
 
@@ -173,9 +173,14 @@ hr {
 }
 
 #profilePic {
-   width: 300px;
+   width: 350px;
    height: 250px;
    float: left;
+   padding: 10px;
+}
+
+.content {
+   padding: 10px;
 }
 .clearfix::after {
    content: "";
