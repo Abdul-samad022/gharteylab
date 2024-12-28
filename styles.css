@@ -178,7 +178,6 @@ hr {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  flex: 0 0 300px;
 }
 
 #profilePic {
