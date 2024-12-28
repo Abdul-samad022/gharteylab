@@ -173,8 +173,7 @@ hr {
 }
 
 .profileContainer {
-  width: 700px;
-  height: 300px;                 /* Keep the container square */
+  height: 300px;         
   display: flex;
   flex-direction: row;
   justify-content: center;
