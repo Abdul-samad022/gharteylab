@@ -88,6 +88,11 @@ body {
 	.profileContainer {
 	    display: block;
 	}
+	.members {
+	  display: flex; 
+	  flex-direction: row; 
+	  justify-content: space-around;
+	}
 }
 
 @media screen and (min-width: 768px) {
