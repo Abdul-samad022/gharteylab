@@ -197,6 +197,17 @@ div.card {
   margin-left: 50px;;
 }
 
+.aside {
+   background-color: lightblue;
+   padding-top: 20px;
+   width: 100%;
+   height: 100vh;
+}
+
+.aside p {
+   text-align: center;
+}
+
 .address {
   text-align: left;
   width: 30%;
