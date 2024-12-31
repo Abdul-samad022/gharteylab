@@ -140,10 +140,11 @@ body {
 .lab-top-bg h1 {
 	padding-top: 30px;
 }
+
 .profileContainer {
   display: flex; 
   flex-direction: row; 
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex: 0 0 200px;
 }
 
